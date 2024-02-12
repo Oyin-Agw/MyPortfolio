@@ -71,3 +71,30 @@ nav a:hover {
 .image img {
   width: 100%;
 }
+
+.about {
+  height: 100vh;
+  text-align: left;
+  background: black;
+  align-items: center;
+  display: flex;
+}
+.about h1 {
+  font-size: 100px;
+  color: white;
+}
+.image2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background: #000;
+}
+.text h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  background: #000;
+}
