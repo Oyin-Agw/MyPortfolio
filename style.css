@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
 }
+.Container {
+  background-color: #000;
+  padding: 50px;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -91,14 +95,10 @@ nav a:hover {
 .image img {
   width: 100%;
 }
-.aboutContainer {
-  background-color: #000;
-  padding: 50px;
-}
+
 .about {
   height: 70vh;
   text-align: left;
-  background: black;
   align-items: center;
   display: flex;
   position: relative;
@@ -167,4 +167,59 @@ nav a:hover {
 .text p {
   color: white;
   font-size: 20px;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ccc8aa;
+  gap: 20px;
+}
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+.contact-title h2 {
+  font-size: 40px;
+}
+.contact-title p {
+  font-size: 20px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+  color: #ccc8aa;
+  width: 40%;
+  padding: 20px;
+}
+
+.contact form input {
+  background: #7d7c7c91;
+  color: #ccc8aa;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.contact form textarea {
+  background: #7d7c7c91;
+  color: #ccc8aa;
+  height: 30vh;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.contact form button {
+  padding: 10px 0;
+  width: 30%;
+  background: #7d7c7c91;
+  color: #ccc8aa;
 }
