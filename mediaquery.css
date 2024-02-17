@@ -1,0 +1,22 @@
+@media (max-width: 420px) {
+  nav {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .landingPage {
+    background: url(/asset/kanzy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+  }
+  .detel h1 {
+    font-size: 60px;
+  }
+  .detel {
+    padding-left: 10px;
+  }
+
+  .image {
+    display: none;
+  }
+}
