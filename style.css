@@ -166,6 +166,16 @@ nav a:hover {
   color: white;
   font-size: 20px;
 }
+.mobileHide {
+  display: none;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
 
 .contact {
   height: 100vh;
