@@ -23,14 +23,14 @@
   .image {
     display: none;
   }
-}
-.mobileHide {
-  display: none;
-}
-.display {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+  .mobileHide {
+    display: none;
+  }
+  .display {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
 }
